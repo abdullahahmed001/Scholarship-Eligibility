@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Enter your age: ");
         int age = myScanner.nextInt();
 
-        if(age < 18 && age > 24)
+        if(age < 18 || age > 24)
         {
             System.out.println("You are not eligible for a scholarship");
         }
