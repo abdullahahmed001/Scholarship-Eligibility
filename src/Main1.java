@@ -1,3 +1,12 @@
+/******************************************************************************
+ @author Group MW 07 SP26
+ Abdullah Ahmed, Tanequa Bailey, Shreya Maipady, and Jose Quevedo
+ CMPE 187
+ Professor Ishie Eswar
+ February 28/2026
+ Control Flow
+ *******************************************************************************/
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +18,7 @@ public class Main {
         int age = Integer.parseInt(response);
         if(age < 18 || age > 24)
         {
-            System.out.println("You are not eligible for a scholarship");
+            System.out.println("You are not eligible for a scholarship.");
             System.exit(0);
         }
         
@@ -23,7 +32,8 @@ public class Main {
             eligible = true;
         }
         else {
-            System.out.println("Is your household income less than $5000?");
+            System.out.println("Is your household income equal to or less than $5000?\n" +
+            "Please enter \"yes\" or \"no\".");
             response = myScanner.next().toLowerCase();
             if (response.equals("yes") || response.equals("y")){
                 dean = true;
