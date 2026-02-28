@@ -5,6 +5,7 @@
  Professor Ishie Eswar
  February 28/2026
  Control Flow
+ This program determines if a student is eligible for a scholarship, dean consideration, or neither.
  *******************************************************************************/
 
 import java.util.Scanner;
